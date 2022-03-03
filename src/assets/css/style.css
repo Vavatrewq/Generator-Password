@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    display: flex;
+    font-family: sans-serif;
+    background-image: url(../img/21_02_Data-security_8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(255,255,255,0.9);
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.result{
+    color:#205a8d;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.carac{
+    font-size: 25px;
+    height: 30px;
+    width: 50px;
+}
+
+label,input{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
+}
+
+input{
+    width: 50%;
+    height: 20px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 500ms;
+    background-color: #5d96e2;
+    color:#ffff;
+}
+
+.btn-box{
+    display: flex;
+}
+
+.btn , .btn-clear{
+    margin: 5px;
+    width: 50%;
+    float: left;
+}
+
+.btn:hover{
+    background-color: #205a8d;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    text-align: center;
+    left:50%;
+    bottom: 10px;
+    transform: translate(-50%, -10%);
+}
